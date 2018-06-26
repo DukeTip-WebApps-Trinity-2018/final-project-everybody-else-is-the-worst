@@ -1,0 +1,37 @@
+h3{
+  font-size: 4em;
+  color: white;
+  font-family: "Sanchez";
+}
+h1{
+  font-size: 7em;
+  text-align: center;
+  margin: 2%;
+  font-family: Josefin Slab;
+}
+p{
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.282);
+  color: white;
+  padding: 3px;
+  border-radius: 15px;
+  font-family: "Montserrat Alternates";
+}
+
+.carousel, .carousel-inner, .item, .item>img{
+  width: 100%;
+}
+.imagee {
+  position:absolute;
+  top:380px;
+  left:100px;   
+}
+.vel{
+  font-family: Josefin Slab;
+  text-align: center;
+  font-size: 30px;
+}
+h2{
+font-family: Josefin Slab;  
+text-align: center;
+}
