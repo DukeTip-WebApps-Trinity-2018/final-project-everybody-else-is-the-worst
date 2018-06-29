@@ -39,12 +39,11 @@ h3 {
 }
 
 .carousel {
-    /* top: 0; */
-    margin-top: 5px;
-    /* padding-top: 20px; */
+    top: 0;
     height: auto;
     width: 100%;
-    /* position: absolute; */
+    display: block;
+    position: absolute;
 }
 
 #menubutton {
@@ -61,17 +60,14 @@ h3 {
 }
 
 @media (max-width: 992px) {
-    .carousel {
-        position: relative;
-    }
     .nav-link {
         text-align: center;
     }
     #sidebar {
-        margin-left: -250px;
+        margin-right: -250px;
     }
     #sidebar.active {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -82,12 +78,11 @@ h3 {
 }
 
 #sidebar.active {
-    margin-left: -250px;
-    text-align: center;
+    margin-right: -250px;
 }
 
 #sidebar {
-    background-color: rgba(158, 163, 176, 0.3);
+    background-color: rgba(158,163,176,.9);
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
@@ -96,6 +91,8 @@ h3 {
     font-weight: normal;
     margin: 0%;
     padding: 0%;
+    margin-right: -250px;
+    z-index: 1;
     text-align: center;
 }
 
@@ -115,16 +112,14 @@ body {
     font-family: Sanchez;
     color: black;
     text-decoration: none;
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BNnQHWfYgiz76sa1n/videoblocks-abstract-pastel-background_rur6x0n-zz_thumbnail-full01.png");
+    background-image: url("https://wallpapercave.com/wp/wp2481150.png");
 }
-
 h4 {
     font-family: Sanchez;
     color: black;
     font-size: 3em;
     text-decoration: none;
     font-weight: bold;
-
 }
 
 a:hover {
@@ -132,61 +127,59 @@ a:hover {
     color: black;
     font-weight: normal;
 }
-
 .container {
     width: 100%;
     height: auto;
     display: flex;
 }
-
 a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
 p {
     font-weight: bold;
     color: black;
+    font-family: "Sanchez";
+    font-size: 1.2em;
+} 
+.card{
+    text-align:center;
+}
+.center{
+    text-align:center;
+}
+.padding {
+    margin-top:30px;
+    margin-left:80px;
+    margin-right:80px;
 }
 
-.card {
-    border-radius: 2em;
-    text-align: center;
+hr {
+    height: 0.15px;
+    background-color:black;
+    width: 60%;
 }
 
-.mar {
-    margin: 3em;
+footer {
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/0623/products/Navajo_Wallpaper_in_Pastel_design_by_Cavern_Home-1_a39a62b4-5373-4786-aff6-d78806c69898_2048x2048.jpg?v=1401222775");
 }
 
-.size {
-    font-size: 15px;
+.oof {
+    margin: 4%;
 }
 
-.btn {
-    background-color: #d9e7da;
+.footer-heading {
+    margin: 4%;
 }
 
+.logo {
+    margin: 2.7em;
+}
+.size2 {
+    font-size:1.6em;
+}
 .navbar-toggler {
     background-color: #7FB685;
 }
 
-.carouselControls {
-    height: 5vh;
-    border-radius: 5vh;
-    background-color: rgba(255, 255, 255, .9)
-}
-
-h5 {
-    font-weight: bold;
-    font-size: 3em;
-}
-
-input {
-    height: 4vh;
-    font-size: 3vh;
-}
-
-.btn {
-    height: 4vh;
-}

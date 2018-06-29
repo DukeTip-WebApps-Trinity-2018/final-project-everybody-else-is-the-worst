@@ -5,6 +5,7 @@
 .navbar {
     background-image: url("https://static1.squarespace.com/static/532115efe4b01580f3c70efa/54b9bb0fe4b0d1f230ce984d/56d07dbd555986c507b5bb53/1456504512313/catstiledsmall.jpg?format=2500w");
     width: 100%;
+    position: relative;
 }
 
 .navbar-brand {
@@ -12,7 +13,7 @@
     border-radius: 14px;
 }
 
-.navbar-toggle {
+.navbar-toggler {
     background-color: #7FB685;
 }
 
@@ -23,8 +24,9 @@
 
 h1 {
     font-family: "Abril Fatface";
-    margin: .25%;
+    margin: .3%;
     font-weight: bold;
+    text-align: center;
 }
 
 h3 {
@@ -33,22 +35,21 @@ h3 {
 }
 
 .carouselControls {
-    height: 4em;
-    background-color: #7FB685;
-    border-radius: 18px;
+    height: 5vh;
+    border-radius: 5vh;
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .carousel {
-    /* top: 0; */
-    margin-top: 5px;
-    /* padding-top: 20px; */
     height: auto;
     width: 100%;
-    /* position: absolute; */
+    display: block;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 #menubutton {
-    width: 1.2em;
+    width: 2em;
 }
 
 .nav-link {
@@ -61,54 +62,19 @@ h3 {
 }
 
 @media (max-width: 992px) {
-    .carousel {
-        position: relative;
+    .navbar {
+        position: sticky;
     }
     .nav-link {
         text-align: center;
     }
-    #sidebar {
-        margin-left: -250px;
+    .carousel{
+        position: relative;
     }
-    #sidebar.active {
-        margin-left: 0;
+    
+    #logo {
+        text-align: center;
     }
-}
-
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-}
-
-#sidebar.active {
-    margin-left: -250px;
-    text-align: center;
-}
-
-#sidebar {
-    background-color: rgba(158, 163, 176, 0.3);
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
-    margin: 0%;
-    padding: 0%;
-    text-align: center;
-}
-
-a[data-toggle="collapse"] {
-    position: relative;
-}
-
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
 }
 
 body {
@@ -121,10 +87,9 @@ body {
 h4 {
     font-family: Sanchez;
     color: black;
-    font-size: 3em;
+    font-size: 1.5em;
     text-decoration: none;
     font-weight: bold;
-
 }
 
 a:hover {
@@ -150,43 +115,51 @@ p {
     color: black;
 }
 
-.card {
-    border-radius: 2em;
-    text-align: center;
+#text {
+    margin: 4%;
 }
 
-.mar {
-    margin: 3em;
+footer {
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/0623/products/Navajo_Wallpaper_in_Pastel_design_by_Cavern_Home-1_a39a62b4-5373-4786-aff6-d78806c69898_2048x2048.jpg?v=1401222775");
 }
 
-.size {
-    font-size: 15px;
+.oof {
+    margin: 4%;
 }
 
-.btn {
-    background-color: #d9e7da;
+.footer-heading {
+    margin: 4%;
 }
 
-.navbar-toggler {
-    background-color: #7FB685;
+.logo {
+    margin: 2.7em;
+}
+/* sidebar */
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.resized{
+width: 300px;
+height: 300px;
 }
 
-.carouselControls {
-    height: 5vh;
-    border-radius: 5vh;
-    background-color: rgba(255, 255, 255, .9)
+footer {
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/0623/products/Navajo_Wallpaper_in_Pastel_design_by_Cavern_Home-1_a39a62b4-5373-4786-aff6-d78806c69898_2048x2048.jpg?v=1401222775");
 }
 
-h5 {
-    font-weight: bold;
-    font-size: 3em;
+.oof {
+    margin: 4%;
 }
 
-input {
-    height: 4vh;
-    font-size: 3vh;
+.footer-heading {
+    margin: 4%;
 }
 
-.btn {
-    height: 4vh;
+.logo {
+    margin: 2.7em;
+}
+.size3 {
+    font-size:4em;
 }

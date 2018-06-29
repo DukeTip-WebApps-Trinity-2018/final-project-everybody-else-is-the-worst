@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Cat Cafe Drinks</title>
   <meta charset="utf-8">
@@ -9,8 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="drinks.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Annie+Use+Your+Telescope|Chewy|Gochi+Hand|Josefin+Slab|Limelight|Monoton|Montserrat+Alternates|Nanum+Pen+Script|Nixie+One|Sacramento|Sanchez"
-        rel="stylesheet">
-      <!-- font-family: 'Josefin Slab', serif;
+    rel="stylesheet">
+  <!-- font-family: 'Josefin Slab', serif;
 font-family: 'Abril Fatface', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Monoton', cursive;
@@ -24,92 +25,113 @@ font-family: 'Annie Use Your Telescope', cursive;
 font-family: 'Limelight', cursive;
 COLORS: #D1C6AD, #96897B, #483D3F, #4C2719, #CF995F,-->
 </head>
+
 <body>
-
-<div class="container-fluid">
-  <h1>Drinks</h1>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="http://www.simpleimageresizer.com/_uploads/photos/7b145614/beer_1920x800.jpg" alt="Beer" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Beer</h3>
-          <p>Taste our wide varity of drinks!</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="http://www.simpleimageresizer.com/_uploads/photos/7b145614/whiskey-glass_3_1920x800.jpg" alt="Whiskey" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Whiskey</h3>
-          <p>Taste our wide varity of drinks!</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="http://www.simpleimageresizer.com/_uploads/photos/7b145614/yeet_1_1920x800.jpg" alt="Refreshing Drinks" alt="Refreshing Drinks" style="width:100%;">
-        <div class="carousel-caption">
-          <h3>Refreshing Drinks</h3>
-          <p>Taste our wide varity of drinks!</p>
-        </div>
-      </div>
-  
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" role="navigation">
+    <a class="navbar-brand" href="final project.html">
+        <img id="logo" src="Final project pics-20180626T143242Z-001/Final project pics/Logos/cafe_coffee.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="mr-auto">
+            <img id="menubutton" src="Final project pics-20180626T143242Z-001/Final project pics/Logos/Asset 1.png">
+        </span>
+    </button>
+    <h1 class="ml-auto" id="name">The Cat Cafe</h1>
+    <!-- NAVBAR -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="about us.html">About</a>
+            </li>
+            <li class="nav-item active" id="sidebarCollapse">
+                <a class="nav-link" href="menu.html" id="menu">Menu</a>
+            </li>
+        </ul>
     </div>
+</nav>
+  <div class="container-fluid">
+    <h1>Drinks</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <div class="imagee">
-      <img src="Final project pics-20180626T143242Z-001/Final project pics/Logos/cat face.png">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <img src="http://www.simpleimageresizer.com/_uploads/photos/7b145614/beer_1920x800.jpg" alt="Beer" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Sparkling Lemonade</h3>
+            <p>Taste our wide varity of drinks!</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="http://www.simpleimageresizer.com/_uploads/photos/7b145614/whiskey-glass_3_1920x800.jpg" alt="Whiskey" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Coke</h3>
+            <p>Taste our wide varity of drinks!</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="http://www.simpleimageresizer.com/_uploads/photos/7b145614/yeet_1_1920x800.jpg" alt="Refreshing Drinks" alt="Refreshing Drinks"
+            style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Refreshing Drinks</h3>
+            <p>Taste our wide varity of drinks!</p>
+          </div>
+        </div>
+
       </div>
-      <span class="glyphicon glyphicon-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
-</div>
 
 
+  <hr>
+  <div class="vel"><strong>Tea</strong></div>
+  <hr>
 
-<div class="vel">Tea</div>
-<hr>
-<ul>
-  <li>Macaroni Tea</l1>
-  <h3>Taste a family favorite!</h3>
-  <li>Ice Cold Rain</li>
-  <h3>Experience fresh rain without getting wet!</h3>
-  <li>Forgotten Snowman</li>
-  <h3>Taste the story of the Forgotten Snowman!</h3>
-  <li>Summer Breeze</li>
-  <h3>Always store the summer season within your stomach!</h3>
-  <li>Sunscreen Demolisher</li>
-  <h3>Prepare for some kick!</h3>
-  <li>Sun's Rage</li>
-  <h3>Make sure you are prepared for the Flames!!!</h3>
-</ul>
-<div class="vel">Coffee</div>
-<ul>
-  <li>Swirly Latte</li>
-  <h3>Become hypnotized from the taste and the swirls!</h3>
-  <li>Classic Latte</li>
-  <h3>Become nostalgic with the bitterness!</h3>
-  <li>Fragaccino</li>
-  <h3>Taste as the coffee explodes in your mouth!</h3>
-  <li>Morning Fragrance</li>
-  <h3>The perfect thing to start your morning with</h3>
-  <li>EXPRESSo</li>
-  <h3>Enjoy a EXPRESSo on the go!</h3>
-</ul>
+    <h2>Macaroni Tea</h2>
+    <h4>Taste a family favorite!</h4>
+    <h2>Ice Cold Rain</h2>
+    <h4>Experience fresh rain without getting wet!</h4>
+    <h2>Forgotten Snowman</h2>
+    <h4>Taste the story of the Forgotten Snowman!</h4>
+    <h2>Summer Breeze</h2>
+    <h4>Always store the summer season within your stomach!</h4>
+    <h2>Sunscreen Demolisher</h2>
+    <h4>Prepare for some kick!</h4>
+    <h2>Sun's Rage</h2>
+    <h4>Make sure you are prepared for the Flames!!!</h4>
+    <hr>
+  <div class="vel"><strong>Coffee</strong></div>
+  <hr>
+    <h2>Swirly Latte</h2>
+    <h4>Become hypnotized from the taste and the swirls!</h4>
+    <h2>Classic Latte</h2>
+    <h4>Become nostalgic with the bitterness!</h4>
+    <h2>Fragaccino</h2>
+    <h4>Taste as the coffee explodes in your mouth!</h4>
+    <h2>Morning Fragrance</h2>
+    <h4>The perfect thing to start your morning with</h4>
+    <h2>EXPRESSo</h2>
+    <h4>Enjoy a EXPRESSo on the go!</h4>
 </body>
+
 </html>

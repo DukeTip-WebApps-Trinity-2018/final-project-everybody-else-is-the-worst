@@ -1,45 +1,333 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
+
 <head>
-    
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">32 
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-            
-        </body>
-        </html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Annie+Use+Your+Telescope|Chewy|Gochi+Hand|Josefin+Slab|Limelight|Monoton|Montserrat+Alternates|Nanum+Pen+Script|Nixie+One|Sacramento|Sanchez"
+        rel="stylesheet">
 
 </head>
+<!-- font-family: 'Josefin Slab', serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Sanchez', serif;
+font-family: 'Chewy', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Nixie One', cursive;
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Limelight', cursive;
+COLORS: #D1C6AD, #96897B, #483D3F, #4C2719, #CF995F,-->
 
 <body>
-
-        
-    <h1>Menu</h1>
-    
-    
-    
-
-
-    <div>
-        <h4>Weather in:
-            <span class="city-name"></span>
-        </h4>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" role="navigation">
+        <a class="navbar-brand" href="final project.html">
+            <img id="logo" src="Final project pics-20180626T143242Z-001/Final project pics/Logos/cafe_coffee.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mr-auto">
+                <img id="menubutton" src="Final project pics-20180626T143242Z-001/Final project pics/Logos/Asset 1.png">
+            </span>
+        </button>
+        <h1 class="ml-auto" id="name">The Cat Cafe</h1>
+        <!-- NAVBAR -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about us.html">About</a>
+                </li>
+                <li class="nav-item active" id="sidebarCollapse">
+                    <a class="nav-link" href="#" id="menu">Menu</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="our cats.html">Our Cats</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="final project.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Drinks menu</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="http://www.latteartguide.com/wp-content/uploads/2016/01/432856237_da68d53578_z.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Espresso</h4>
+                            <p class="card-text">The classic Espresso gives a little bitterness in the mouth but is always tasty and fresh. $
+                            </p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.curlycoffee.nl/wp-content/uploads/2012/11/cappuccino-300x200.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Cappuccino </h4>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="http://www.latteartguide.com/wp-content/uploads/2016/01/short-macchiato.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Short Macchiato</h4>
+                            <p class="card-text">This Macchiato is a very original type of coffee from Italy and has foam on the top that gives
+                                it a distinct taste. 3$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.organicindia.com/us/uploads/wysiwyg/assets/uploads/Chai_latte_new.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Chai Latte</h4>
+                            <p class="card-text">The Chao Latte is created through boiling herbs and is very refreshing that will guarantee a
+                                good taste. 5$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="http://matchatee.club/wp-content/uploads/2016/11/Homemade-Iced-Matcha-Latte-Tea--300x200.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Iced Green Tea</h4>
+                            <p class="card-text">The Iced Green Tea is a very refreshing tea that soothes the soul. It gives a classic taste.
+                                4$
+                            </p>
+                            <p class="card-text"></p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdn.cpnscdn.com/static.coupons.com/ext/kitchme/images/recipes/300x200/arnold-palmer-lemonade-iced-tea_44551.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Sweet Tea</h4>
+                            <p class="card-text">This tea gives a sweet natural taste. "The Sweeter the Better" is the motto that we go by. 3$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="https://drcolbert.com/wp-content/uploads/2017/12/shutterstock_271854836-300x200.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Hot Chocolate</h4>
+                            <p class="card-text">This traditional winter drink gives a cozy feeling inside your stomach that is sure to make you
+                                want more. 4$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/r_INe-ljise7v0r5/graphicstock-glass-of-coffee-mocha-with-ice_rPOZms9ub_thumb.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Mocha</h4>
+                            <p class="card-text">The Mocha has a choclate taste that is combined with th bitterness if the coffee beans that promote
+                                the taste overall.</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwziAr7xkWrsgN27dndcg2VM-LKIVG_0AuyGjBFs3lvTAflpWI"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Chocolate Milk</h4>
+                            <p class="card-text">This classic drink provides a different taste to the milk that we drink every morning. 3$</p>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span aria-hidden="true">
+                    <img class="carouselControls" src="Final project pics-20180626T143242Z-001/Final project pics/cat face.png">
+                </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span aria-hidden="true">
+                    <img class="carouselControls" src="Final project pics-20180626T143242Z-001/Final project pics/cat face.png">
+                </span>
+                <span class="sr-only">Next</span>
+        </div>
+        </a>
+    </div>
+    <h1>Food Menu</h1>
+    <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.oatandsesame.com/wp-content/uploads/2016/05/Everything-Bagel-Pretzels-2-300x200.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Bagel</h4>
+                            <p class="card-text">The Bagel is handmade in our restaraunt and is sure to provide a decadent taste. 5$
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="http://s3.amazonaws.com/hungry-girl/uploads/section_image/2387/hg_s-iced-blueberry-scones.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Blueberry scone </h4>
+                            <p class="card-text">Our Blueberry Scones are made with natural blueberries. 5$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://azoriafoods.com/wp-content/uploads/2017/06/001C-PAC1-3.5-Chocolate-Croissant-300x200.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Chocolate Croissant</h4>
+                            <p class="card-text">This snack is a very hard to make pastry but tastes awesome. 7$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top imageee" src="http://www.aimadeitforyou.com/wp-content/uploads/2016/04/IMG_9564-300x200.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Doughnut</h4>
+                            <p class="card-text">The Doughnut is a classic snack that America loves. 2$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1863847/300/200/m1/fpc/wm0/lyvj2f8zruitxb1dricald1ghks2fcierf5ltjvsra1fi1difrse1eownantvcys-.jpg?1478625757&s=d08823d316ec624d37b671691908972e"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Bacon Sandwich</h4>
+                            <p class="card-text">The Bacon Sandwich is the dream for all those meat lovers out there. 8$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://eastsilentresort.com/wp-content/uploads/2016/05/Fruit-and-yogurt-parfait-e1463779526857.jpg"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Strawberry Ice cream Yogurt</h4>
+                            <p class="card-text">The Strawberry Ice Cream Yogurt is made using natural grown strawberrys from the local farms.
+                                7$
+                            </p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="http://www.aimadeitforyou.com/wp-content/uploads/2016/09/IMG_4248-300x200.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Blueberry Muffin</h4>
+                            <p class="card-text">Our Blueberry Muffins are different from everyone else's. We use natural grown blueberries and
+                                we sprinkle a little sugar on the top. 7$</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.cdkitchen.com/images/articles/78.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Chocolate Icecream</h4>
+                            <p class="card-text">Our Choclate Icecream is a classic that we have been serving since our beginning.</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="http://3.bp.blogspot.com/-OXUS0BawIvI/UwJAuTMp89I/AAAAAAAAPpc/PLocmgnSvks/s1600/raspberryicecream.gif"
+                            alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Strawberry Ice Cream</h4>
+                            <p class="card-text">The Strawberry Icecream has a very different taste from our yogurt. 6</p>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+            <span aria-hidden="true">
+                <img class="carouselControls" src="Final project pics-20180626T143242Z-001/Final project pics/cat face.png">
+            </span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+            <span aria-hidden="true">
+                <img class="carouselControls" src="Final project pics-20180626T143242Z-001/Final project pics/cat face.png">
+            </span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
-    <h3>City</h3>
-    <div class="city"></div>
-    <!-- Shows location, span used for a dynamic blank space-->
-    <h3>Weather</h3>
-    <div class="weather"></div>
-    <!-- Shows weather -->
-    <h3>Temperature</h3>
-    <div class="temp "></div>
-    <!-- Shows temperature -->
+    <center class="mar">
 
+        <h1>Recommended drinks</h1>
 
+                <input class="city" name="textfield" type="text" placeholder="Enter City Name" />
+                <button class="btn" id="submit">Submit</button>
+        <div>
+            <br>
+            <span class="size">
+                <h4>Weather in:
+                    <span class="city-name"></span>
+                </h4>
+        </div>
+        <!-- Shows location, span used for a dynamic blank space-->
+        <div class="weather mar"></div>
+        <!-- Shows weather -->
+        <h5><u>Temperature</u></h5>
+        <div class="temp mar"></div>
+        <!-- Shows temperature -->
+        <h5><u>Country</u></h5>
+        <div class="country mar"></div>
+        <!-- Shows country -->
+        <h5><u>Humidity</u></h5>
+        <div class="humidity  mar "></div>
+        <!-- Shows humidity -->
+    </center>
+    </span>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 <script src="menu.js"></script>
 
 </html>
